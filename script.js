@@ -30,3 +30,8 @@ function autoscroll() {
 }
 
 autoscroll();
+
+const button = document.querySelector(".b3")
+button.addEventListener('click', () => {
+    alert("Не покажу");
+});
