@@ -14,6 +14,16 @@
     font-family: Montserrat;
     box-sizing: border-box;
 }
+.temnota{
+    display: none;
+    width: 375px;
+    height: 5000px;
+    position: absolute;
+    background-color: #00000067;
+}
+.spisok{
+    display: none;
+}
 a{
     text-decoration: none;
     color: #000000;
@@ -527,15 +537,29 @@ footer .container{
         align-items: center;
         justify-content: center;
     }
-     .niz2 .p{
+     .niz2 li{
         display: flex;
-        justify-content: center;
         align-items: center;
-        width: 157px;
+        justify-content: center;
+        min-width: 157px;
         height: 37px;
         border: 1px solid #EEEEEE;
         border-radius: 29px;
         font-size: 14px;
+        text-align: center;
+        list-style: none;
+     }
+     .niz2 ul{
+        display: flex;
+        align-items: center;
+        padding: 0;
+     }
+     .spisok{
+        display: block;
+        width: 157px;
+        height: 70px;
+        overflow-x: auto;
+        overflow-y: hidden;
      }
      .plazhka{
         display: none;
