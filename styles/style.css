@@ -14,6 +14,10 @@
     font-family: Montserrat;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: #000000;
+}
 body{
     margin: 0;
 }
@@ -78,7 +82,7 @@ nav ul{
     display: flex;
     gap: 40px;
 }
-nav li:hover{
+nav a:hover{
     color: #FC42FF;
 }
 nav{
